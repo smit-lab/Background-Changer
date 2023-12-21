@@ -11,6 +11,5 @@ submitButton.addEventListener("click", (e) => {
     bodyColor.style.backgroundColor = inputValue;
     changeText.textContent = customColorInput.value;
     notShow.style.display = "none";
-    console.log(`You've typed: ${inputValue} color`);
   }
 });
