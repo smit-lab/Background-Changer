@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>BG Changer</title>
+  </head>
+  <body>
+    <form class="input-field">
+      <input
+        type="text"
+        name="color-name"
+        id="color-name"
+        class="input-color-field"
+        placeholder="#ff00ff"
+        value="#"
+      />
+      <button type="button" id="submit-btn" class="button-submit">Click</button>
+    </form>
+    <h1 class="message-text">
+      You've <span id="not-show">not</span> clicked
+      <span id="clicked-color">any</span> color.
+    </h1>
+  </body>
+  <script src="script.js"></script>
+</html>
